@@ -15,7 +15,7 @@ public class Task10 {
         //Scaner a2 = new Scaner (System.in); - как правельно создовать 2й сканер???
         //int sss = a2.nextInt ();
         int sss = a1.nextInt();
-        System.out.print ("VALUES"+"("+"'"+ ss +"'"+","+ "'"+sss+"'"+")");
+        System.out.print ("INSERT INTO points (x, y) VALUES ('"+ ss +"','"+sss+"');");
 
 
 

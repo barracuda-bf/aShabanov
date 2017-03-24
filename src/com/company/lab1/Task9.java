@@ -15,7 +15,7 @@ public class Task9 {
         String a = "SELEKT first_name, last_name,";
         String b =  "group FROM";
         String c = "Student WHERE id=";
-        System.out.println (a + b + c + ss);
+        System.out.println (a + b + c + "'"+ss+"'");
     }
 
 
