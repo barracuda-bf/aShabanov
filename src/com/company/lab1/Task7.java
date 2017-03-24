@@ -10,6 +10,6 @@ public class Task7 {
         Scanner s = new Scanner(System.in);// создаем сканер консоли для считывания
         double a; // объявление переменной
         a = s.nextDouble(); // считываем введеную строку
-        System.out.format("%.4f%n", a); // выод считаной строки на экран
+        System.out.format("%.4f%n", a); // выод считаной строки на экран c 4 знакоми после запятой
     }
 }
