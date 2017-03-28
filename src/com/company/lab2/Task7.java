@@ -10,7 +10,7 @@ public class Task7 {
         int A;
         Scanner x = new Scanner(System.in);
         A = x.nextInt();
-        double c = A%360*Math.PI/180;                // % - стко отделение целого числа  и это формула вычисления радианов
+        double c = A%360*Math.PI/180;
         System.out.format ("%.4f%n",c);
 
     }
