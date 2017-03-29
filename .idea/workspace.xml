@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="549cafae-7f1c-4cad-97ed-cf5412ee0315" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task16.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task19.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task25.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task26.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task27.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task28.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task29.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task30.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task31.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task34.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task35.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task36.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task37.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lab2/Task15.java" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task15.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lab2/Task18.java" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task18.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lab2/Task36.java" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task36.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/lab2/Task37.java" afterPath="$PROJECT_DIR$/src/com/company/lab2/Task37.java" />
     </list>
     <ignored path="Курсы Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +37,8 @@
       <file leaf-file-name="Task36.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/lab2/Task36.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="74">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -61,8 +47,8 @@
       <file leaf-file-name="Task37.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/lab2/Task37.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,14 +116,13 @@
         <option value="$PROJECT_DIR$/src/com/company/lab2/Task31.java" />
         <option value="$PROJECT_DIR$/src/com/company/lab2/Task34.java" />
         <option value="$PROJECT_DIR$/src/com/company/lab2/Task35.java" />
-        <option value="$PROJECT_DIR$/src/com/company/lab2/Task36.java" />
         <option value="$PROJECT_DIR$/src/com/company/lab2/Task37.java" />
+        <option value="$PROJECT_DIR$/src/com/company/lab2/Task36.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="372" />
-    <option name="y" value="151" />
+    <option name="x" value="355" />
     <option name="width" value="1460" />
     <option name="height" value="665" />
   </component>
@@ -616,7 +601,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="372" y="151" width="1460" height="665" extended-state="1" />
+    <frame x="355" y="0" width="1460" height="665" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1046,16 +1031,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/lab2/Task36.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="74">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/lab2/Task37.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

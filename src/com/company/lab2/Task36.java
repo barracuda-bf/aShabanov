@@ -7,18 +7,16 @@ import java.util.Scanner;
  */
 public class Task36 {
     public static void main(String[] args) {
-        int a;
-        int b;
-        int c;
-        int d;
+        int a;  //xa
+        int b;  // ya
+        int c; // xb
+        int d; // yb
         Scanner skan = new Scanner(System.in);
         a = skan.nextInt();
         b = skan.nextInt();
         c = skan.nextInt();
         d = skan.nextInt();
-        double a1 = b-a;
-        double b1 = d-c;
-        double q1 = Math.sqrt((Math.pow(a1,2))+ (Math.pow(b1,2)));
+        double q1 = Math.sqrt((Math.pow(c-a,2))+ (Math.pow(d-b,2)));
         System.out.format("%.4f%n",q1);
     }
 }
