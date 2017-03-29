@@ -18,7 +18,7 @@ public class Task18 {
         double x3;
         x3 = skan.nextDouble();
         double d = (x1 * x2) + (x1*x3) + (x2*x3);
-        System.out.format("%.1f%n", d);
+        System.out.format("%.0f%n", d);
 
     }
 }
