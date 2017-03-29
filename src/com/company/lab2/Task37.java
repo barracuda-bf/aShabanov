@@ -21,7 +21,9 @@ public class Task37 {
         System.out.println("Selekt t2:");
         d = skan.nextInt();
         int v1 = a+c;
-        double t = ((b*a)+(d*c))/(a+c);
+        int numerator = (b*a)+(d*c);
+        int denominator = a+c;
+        double t = (double)numerator/denominator;
         System.out.println("V= "+v1);
 
         System.out.print("T= ");

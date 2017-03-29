@@ -12,7 +12,11 @@ public class Task2 {
         double b;
         Scanner x = new Scanner(System.in);
         a = x.nextDouble();
-        b = a * a * a ;
+        if (a <=0) { // проверка данных
+            System.out.println("error");
+            return; //прекращение работы метода main
+        }
+        b = 6*Math.pow(a,2) ;
         System.out.println(b);
     }
 }

@@ -11,6 +11,10 @@ public class Task11 {
         System.out.println("select a:");
         int a;
         a = x.nextInt();
+        if (a<0){
+            System.out.println("Error");
+            return;
+        }
         double c = Math.sqrt(a);
         System.out.format("%.4f%n", c);
     }

@@ -12,7 +12,16 @@ public class Task6 {
         Scanner x = new Scanner(System.in);
         a = x.nextDouble();
         b = x.nextDouble();
-                double c = a * b / 2;
+        if (a<=0){
+            System.out.println("Error");
+            return;
+        }
+            if (b<=0){
+                System.out.println("Error1");
+                return;
+            }
+
+        double c = a * b / 2;
         System.out.println (c);
 
     }

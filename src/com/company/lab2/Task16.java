@@ -14,7 +14,17 @@ public class Task16 {
         a = x.nextInt();
         System.out.println("Select y:");
         b = x.nextInt();
-        double c = -5 * Math.sqrt (a+Math.sqrt(b));
+        if (b<=0){
+            System.out.println("Error1");
+            return;
+        }
+        double c1 = a + Math.sqrt(b);
+        if (c1<=0) {
+            System.out.println("Error1");
+            return;
+        }
+        double c = -5 * Math.sqrt (c1);
+
         System.out.format("%4f%n",c); // непонятно почему пишит 6 знаков вмексто 4
     }
 }

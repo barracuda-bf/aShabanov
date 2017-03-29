@@ -12,11 +12,13 @@ public class Task8 {
         int b; // сантиметры
         Scanner skan = new Scanner(System.in);
         a = skan.nextInt();
-        System.out.println("Введите длину изделия в сантиметрах:");
+        System.out.println("Введите длину в сантиметрах");
         b = skan.nextInt();
         double c = a*100 / b;
-        //double d;
+        int d = a * 100%b;
+
         System.out.format ("%.0f%n", c);//+ d "см");
-        System.out.println("шт.");
+        System.out.println(d + " шт.");
+
     }
 }

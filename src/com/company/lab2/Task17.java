@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by наш on 28.03.2017.
  */
-public class Tast17 {
+public class Task17 {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("Введите скорость автомобиля А:");

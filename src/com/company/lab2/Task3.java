@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /* задача 4
  */
-public class Tasc3 {
+public class Task3 {
     public static void main(String[] args) {
         System.out.println("Selekt a:");
         int a1;
