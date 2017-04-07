@@ -1,36 +1,36 @@
 package com.company.Lab5;
 // есть ошибка в условии задачи, т.к. 1 решение не верное (.) не лежит в области координат
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.util.Scanner;
 
 public class Task21 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int a,b,c,d,e,f;
+        int Xt,Yt,Xp,Yp,H,W;
         System.out.println("Select Xt:");
-        c = scn.nextInt ();// c -Xt
+        Xt = scn.nextInt ();// c -Xt
         System.out.println("Select Yt:");
-        d = scn.nextInt ();//Yt
+        Yt = scn.nextInt ();//Yt
         System.out.println("Select Xp:");
-        a = scn.nextInt ();
+        Xp = scn.nextInt ();
         System.out.println("Select Yp:");
-        b = scn.nextInt ();
+        Yp = scn.nextInt ();
         System.out.println("Select height(H):");
-        e = scn.nextInt ();
+        H = scn.nextInt ();
         System.out.println("Select width(W):");
-        f = scn.nextInt ();
-        int e1 = e * -1;
-        if ((e<0)&&(f<0)) {
-            System.out.println("Введены неверные данные!");
-        } else if (e==f){
-            System.out.println("Введены неверные данные!");
+        W = scn.nextInt ();
+        if ((H<0)&&(W<0)) {
+            System.out.println("error");
+               }
+        if ((Xp<Xt)&&(Xp+W>Xt)) {
+            if ((Yp<Yt)&&(Yp+H>Yp)){
+                System.out.println("yes");
+            }
+        }else {
+            System.out.println("no");
         }
 
-        if ((a==0)&&(b==0)) {e = e1;}
-        else {e = e; }
-        if ((a<=c)&&(c<=e)&&(e1<=d)&&(d<=b)){
-            System.out.println("Точка внутри координат");
-        } else {
-            System.out.println("Точка не внутри координат");
-        }
+
     }
 }
