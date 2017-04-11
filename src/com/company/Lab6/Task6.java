@@ -13,13 +13,13 @@ public class Task6 {
 
         a = ckn.nextInt();
         b = ckn.nextInt();
-        if (a > b) {  // a = 7 b= 5
+        if (a > b) {
             int c = b;
             while (a >= c) { //условие продолжения
                 System.out.print(c + " ");
                 c++;
             }
-        } else { // a = 1 b = 4
+        } else {
             int d = a;
             while (d <= b) { //условие продолжения
                 System.out.print(d + " "); // повторяющеесе действие

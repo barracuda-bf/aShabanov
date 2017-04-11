@@ -28,7 +28,7 @@ public class Task10 {
         System.out.println(sum);
 
         sum=0;
-        i=100;
+        i=-100;
         while (i<=500){
             sum = sum + i;
             i++;
