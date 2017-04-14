@@ -10,18 +10,16 @@ public class Task19 {
         Scanner ckn = new Scanner(System.in);
         int a = ckn.nextInt();
         int i = 0;
-        if (a <= 20) {
-            while (i < a){
-                System.out.print("#");
-                i++;
-            }
-        } else if (a>=20) {
-            while (i<=20){
-                System.out.print("#");
-                i++;
-                System.out.println("\n");
-                while ()
+        int i1 = 0; // позволяет следить за количеством символов в строке
+        while (i < a) {
+            System.out.print("#");
+            i++;
+            i1++;
+            if (i1==20){
+                System.out.println();
+                i1=0; // обнуляется когда количество символов доходит до 20 (впремере)
             }
         }
     }
 }
+
