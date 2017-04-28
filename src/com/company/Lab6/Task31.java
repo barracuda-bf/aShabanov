@@ -16,11 +16,11 @@ public class Task31 {
         }
         String s = "";
         int i = 0;
-        do {
+        while (i < t) {
             s += d;
             System.out.println(s);
             i++;
-        } while (i < t);
+        }
     }
 }
 

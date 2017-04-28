@@ -23,33 +23,12 @@ public class Task28 {
             System.out.println("Error");
             return;
         }
-        for (i = 0; i < c; ++i, System.out.println())
-            for (j = 0; j < b; ++j)
+        for (i = 0; i < c; ++i) {
+            //System.out.println();
+            for (j = 0; j < b; ++j) {
                 System.out.print(a);
+            }
+            System.out.println();
+        }
     }
 }
-/*public static void main(String[] args) {
-        int a, b;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Vicota:");
-        a = sc.nextInt();
-        System.out.print("Shirina:");
-        b = sc.nextInt();
-        int i = 0;
-        int i1 = 0; // позволяет следить за количеством символов в строке
-        while (i <= b) {
-                System.out.print("#");
-                i++;
-                i1++;
-                if (i1 == b) {
-                    System.out.println();
-                    i1 = 0; // обнуляется когда количество символов доходит до 20 (впремере)
-                }
-                while (i<=a){
-                    i++;
-
-                }
-            }
-
-        }
-    }*/
