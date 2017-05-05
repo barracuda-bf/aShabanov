@@ -11,17 +11,14 @@ public class Task4 {
         String a = "abcdacadbacdaabaadc";
         System.out.print("ввести 2 символа:");
         String str = ckn.next();
-
-        int b1 = a.indexOf(str);
-        int b11 = a.lastIndexOf(str);
-        if ((b1 < 0 )&&(b1<0)) {
-            System.out.println("Вводимая строка должна содержать ровно 2 символа");
-            return;
-        }else if (b1 == 0) {
+        int c1 = str.length();
+        if (c1!=2) {
             System.out.println("Вводимая строка должна содержать ровно 2 символа");
             return;
         }
-        // как добавить условие, чтобы выводился только первый вариант, исключая второй..
-        System.out.println(b1+" "+b11);
+        int b1 = a.indexOf(str);
+        int b2 = a.indexOf(str, b1+1);
+                // как добавить условие, чтобы выводился только первый вариант, исключая второй..
+        System.out.println(b1 + " " + b2);
     }
 }
