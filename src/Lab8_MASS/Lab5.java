@@ -15,8 +15,6 @@ public class Lab5 {
                 System.out.println("Число E должно быть в интервале [0, размер массива)");
                 return;
         }
-        String f1 = arr [b];
-        String f2 = arr [e];
         if (b<=e) {
             while (b <= e) {
                 System.out.print(arr[b] + " ");
